@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    font-family: "Oswald", serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4 {
+    font-family: "DM Serif Text", serif;
+}
+
+/* En tête  */
+
+header {
+    background-color: #1f1f1f;
+    height: 110px;
+    padding: 0 20px;
+}
+
+header img {
+    max-width: 110px; 
+    height: 110px;
+}
+
+.container {
+    max-width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.dflex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.content-center {
+    justify-content: center;
+}
+
+
+.align-center {
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+header li {
+    margin-left: 30px;
+}
+
+header a {
+    color:#ffffff;
+    font-size: 1.2em;
+}
+
+/* Section bienvenue  */
+
+.bienvenue {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/Section\ SUPERCAR\ ELITE.jpg);
+    padding: 80px 20px;
+    text-align: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 2.5em;
+}
+
+.slogan {
+    color: #ffffff;
+    font-size: 4em;
+    font-weight: 400;
+}
+
+.intro {
+    max-width: 700px;
+    color:#ffffff;
+    font-size: 1.8em;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.btn {
+    background-color: #1f1f1f;
+    padding: 10px 30px;
+    font-size: 1.3em;
+    color:#ffffff;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+/* Section Articles  */
+
+.articles {
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 20px 20px 60px 20px;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-top: 0;
+}
+
+article {
+    width: 360px;
+    margin-bottom: 40px;
+}
+
+.photo-speciale:hover {
+    transform: scale(1.1); /* Agrandissement de 5% au survol */
+}
+
+.photo-speciale {
+    transition: transform 0.2s ease; /* Transition pour agrandir et réduire */
+}
+
+article img {
+    width: 100%;
+}
+
+article img {
+    border-radius: 15px;
+}
+
+article p {
+    text-align: center;
+}
+
+.btn-small1 {
+    background-color: #4f6faa;
+    color: #000000;
+    padding: 4px 30px;
+    border-radius: 5px;
+}
+
+.btn-small1:hover {
+    background-color: #0008ff00; /* Change la couleur de fond au survol */
+    color: #ffffff; /* Change la couleur du texte au survol */
+}
+
+.btn-small2 {
+    background-color: #f9f1de;
+    color: #000000;
+    padding: 4px 30px;
+    border-radius: 5px;
+}
+
+.btn-small2:hover {
+    background-color: #0c0c0c00; /* Change la couleur de fond au survol */
+    color: #ffffff; /* Change la couleur du texte au survol */
+}
+
+    .btn-small3 {
+    background-color: #af3d52;
+    color: #000000;
+    padding: 4px 30px;
+    border-radius: 5px;
+    }
+
+    .btn-small3:hover {
+        background-color: #ff002f00; /* Change la couleur de fond au survol */
+        color: #ffffff; /* Change la couleur du texte au survol */
+    }
+
+section div {
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* section Agence  */
+
+.agence {
+    padding: 40px 20px 60px 20px;
+    text-align: center;
+}
+
+.col {
+   width: 50%;
+    margin: 20px;
+}
+
+.agence img {
+    width: 100%;
+    box-shadow: -30px -30px 0px #1f1f1f;
+}
+
+main {
+    width: 540px;
+}
+
+main h2 {
+    
+    text-align: center;
+}
